@@ -2,7 +2,7 @@ android_app_import {
 	name: "GCamGOPrebuilt",
 	owner: "google",
 	apk: "GCamGOPrebuilt.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -15,7 +15,7 @@ android_app_import {
 	name: "GCamGOPrebuilt-V2",
 	owner: "google",
 	apk: "GCamGOPrebuilt-V2.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -27,7 +27,7 @@ android_app_import {
 	name: "GrapheneCamera",
 	owner: "GrapheneOS",
 	apk: "GrapheneCamera.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
